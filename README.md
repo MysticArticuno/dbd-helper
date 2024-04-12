@@ -10,23 +10,19 @@ This project contains two parts, the frontend SPA, and a backend REST API that s
 ## Installation
 
 ### Setting up the backend:
-    Open a terminal window in the API directory.
-    Please download and install [Python](https://www.python.org/downloads/), if you haven't already.
-    Verify that Python is installed correctly by running `py -V` or `python3 -V`
-    Python should display the currently installed version. If it does not, [please ensure that Python is added to the system path](https://realpython.com/add-python-to-path/).
-    Once Python is verified to be working correctly, create a virtual environment (venv) to ensure the program functions correctly.
-    ```
-    python3 -m venv .venv
-    ./.venv/Scripts/activate
-    ```
-    Next, install Flask
-    ```
-    pip3 install flask
-    ```
-    Once flask is installed, run the following command to start the server
-    ```
-    flask --app ./flask-server.py run
-    ```
+Open a terminal window in the API directory.
+Please download and install [Python](https://www.python.org/downloads/), if you haven't already.
+Verify that Python is installed correctly by running `py -V` or `python3 -V`
+Python should display the currently installed version. If it does not, [please ensure that Python is added to the system path](https://realpython.com/add-python-to-path/).
+Once Python is verified to be working correctly, create a virtual environment (venv) to ensure the program functions correctly.
+```
+python3 -m venv .venv
+./.venv/Scripts/activate
+```
+Next, install Flask
+```pip3 install flask```
+Once flask is installed, run the following command to start the server
+```flask --app ./flask-server.py run```
 
 ### Setting up the frontend:
-    nah not rn i dont feel like typing more
+nah not rn i dont feel like typing more
